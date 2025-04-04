@@ -1,0 +1,31 @@
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 400px;
+  }
+  
+  .alert-success {
+    background-color: #4CAF50;
+  }
+  
+  .alert-error {
+    background-color: #f44336;
+  }
+  
+  .close-btn {
+    margin-left: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0 0 0 10px;
+  }
